@@ -1,11 +1,11 @@
 # Exercicio 1: Integração Eclipse e GitHub
 
-Nome: Larissa Valadares Silqueira
+Nome: Larissa Valadares Silqueira <br />
 Matricula: 754065-5
  
 Autoavaliação: 5 pontos
 
------ Enunciado -----
+---
 
 Esta tarefa consiste na criação de um programa em Java utilizando o ambiente de desenvolvimento Eclipse, sendo que os alunos devem:
 
