@@ -1,4 +1,4 @@
-# Exercicio 1: Integração Eclipse e GitHub
+# Exercício 1: Integração Eclipse e GitHub
 
 Nome: Larissa Valadares Silqueira <br />
 Matricula: 754065-5
