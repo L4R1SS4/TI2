@@ -1,24 +1,24 @@
 /**
- *
+ * 
  *  Trabalho Interdisciplinar 2 : BD e SI
- *  Exercicio 1 - Programa em Java que some dois n√∫meros
+ *  Exercicio 1 - Programa em Java que some dois n˙meros
  * 
  *  Nome: Larissa Valadares Silqueira
  *  Matricula: 754065-5
  * 
- *  Autoavalia√ß√£o: 5 pontos
+ *  AutoavaliaÁ„o: 5 pontos
  * 
  */
 
-// OBS: ao rodar o programa no Windows evite usar ponto ao inserir valores n√£o inteiros
-//      j√° no caso do Linux, evite usar v√≠rgula para o mesmo fim acima.
+// OBS: ao rodar o programa no Windows evite usar ponto ao inserir valores n„o inteiros
+//      j· no caso do Linux, evite usar vÌrgula para o mesmo fim acima.
 
 
 import java.util.Scanner;
 
 public class Exercicio {
     
-    // permite a leitura de valores digitados pelo usu√°rio
+    // permite a leitura de valores digitados pelo usu·rio
     public static Scanner ler = new Scanner(System.in);
     
     // retorna a soma de dois valores
@@ -31,7 +31,7 @@ public class Exercicio {
         
         float a, b;
 
-        System.out.print("Digite dois valores (separados por espa√ßo/enter): ");
+        System.out.print("Digite dois valores (separados por espaÁo/enter): ");
         
         try {
             // realiza a leitura dos valores
@@ -41,9 +41,9 @@ public class Exercicio {
             System.out.println("\nSoma: " + a + " + " + b + " = " + Soma(a,b));
         } 
         
-        // exce√ß√£o para casos em que os valores digitados n√£o podem ser somados
+        // exceÁ„o para casos em que os valores digitados n„o podem ser somados
         catch (Exception e) {
-            System.out.println("\nOs valores inseridos n√£o podem ser somados." +
+            System.out.println("\nOs valores inseridos n„o podem ser somados." +
                 "\nOBS: Evite caracteres.");
         }
         
