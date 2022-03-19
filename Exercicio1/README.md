@@ -1,12 +1,11 @@
-
-Trabalho Interdisciplinar 2 : BD e SI
+#Exercicio 1: Integração Eclipse e GitHub
 
 Nome: Larissa Valadares Silqueira
 Matricula: 754065-5
  
 Autoavaliação: 5 pontos
 
------ Problema -----
+----- Enunciado -----
 
 Esta tarefa consiste na criação de um programa em Java utilizando o ambiente de desenvolvimento Eclipse, sendo que os alunos devem:
 
