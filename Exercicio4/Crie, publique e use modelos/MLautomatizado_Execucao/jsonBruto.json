@@ -1,0 +1,134 @@
+{
+    "runId": "AutoML_c2fb8164-5b2b-41f0-961e-be4862e2199f",
+    "runUuid": "791b872d-b1e7-4d81-812b-c106c354bd88",
+    "parentRunUuid": null,
+    "rootRunUuid": "791b872d-b1e7-4d81-812b-c106c354bd88",
+    "target": "AzureBot",
+    "status": "Completed",
+    "parentRunId": null,
+    "createdTimeUtc": "2022-04-21T17:35:49.4450549+00:00",
+    "startTimeUtc": "2022-04-21T17:36:05.695Z",
+    "endTimeUtc": "2022-04-21T17:43:22.024Z",
+    "error": null,
+    "warnings": [
+        {
+            "source": "JasmineService",
+            "message": "User specified exit score reached, hence experiment is stopped. Current user specified exit_score/Metric Score Threshold: 0.085"
+        }
+    ],
+    "tags": {
+        "model_explain_run": "best_run",
+        "_aml_system_automl_run_workspace_id": "c7e859b7-8d6a-4a45-bd1f-3cd93a3f9c00",
+        "_aml_system_azureml.automlComponent": "AutoML",
+        "pipeline_id": "",
+        "score": "",
+        "predicted_cost": "",
+        "fit_time": "",
+        "training_percent": "",
+        "iteration": "",
+        "run_preprocessor": "",
+        "run_algorithm": "",
+        "_aml_system_azureml.automl_early_exit_message": "User specified exit score reached, hence experiment is stopped. Current user specified exit_score/Metric Score Threshold: 0.085",
+        "automl_best_child_run_id": "AutoML_c2fb8164-5b2b-41f0-961e-be4862e2199f_0",
+        "model_explain_best_run_child_id": "AutoML_c2fb8164-5b2b-41f0-961e-be4862e2199f_0"
+    },
+    "properties": {
+        "num_iterations": "1000",
+        "training_type": "TrainFull",
+        "acquisition_function": "EI",
+        "primary_metric": "normalized_root_mean_squared_error",
+        "train_split": "0",
+        "acquisition_parameter": "0",
+        "num_cross_validation": "5",
+        "target": "AzureBot",
+        "AMLSettingsJsonString": "{\"enable_early_stopping\":true,\"enable_ensembling\":true,\"enable_stack_ensembling\":true,\"ensemble_iterations\":15,\"enable_onnx_compatible_models\":false,\"max_cores_per_iteration\":-1,\"send_telemetry\":true,\"blacklist_algos\":[\"TensorFlowDNN\",\"TensorFlowLinearRegressor\"],\"whitelist_models\":[\"RandomForest\",\"LightGBM\"],\"compute_target\":\"AzureBot\",\"enable_dnn\":false,\"enable_code_generation\":true,\"experiment_exit_score\":0.085,\"experiment_timeout_minutes\":30,\"featurization\":\"auto\",\"hyperdrive_config\":null,\"grain_column_names\":null,\"is_timeseries\":false,\"iteration_timeout_minutes\":30,\"max_concurrent_iterations\":2,\"metric_operation\":\"minimize\",\"model_explainability\":true,\"n_cross_validations\":null,\"name\":\"mslearn-bike-rental\",\"path\":\"./sample_projects/mslearn-bike-rental\",\"primary_metric\":\"normalized_root_mean_squared_error\",\"region\":\"southcentralus\",\"resource_group\":\"TrabalhoInterdisciplinar\",\"subscription_id\":\"6affee6e-d2a1-4d6c-9b31-044b97f88ef2\",\"task_type\":\"regression\",\"validation_size\":null,\"test_size\":null,\"vm_type\":\"STANDARD_DS11_V2\",\"workspace_name\":\"chatbot\",\"label_column_name\":\"rentals\",\"save_mlflow\":true,\"enable_batch_run\":true,\"dataset_id\":\"5a31db90-a07b-4116-8b05-159ed681161f\"}",
+        "DataPrepJsonString": "{\\\"datasets\\\":0,\\\"training_data\\\":{\\\"datasetId\\\":\\\"5a31db90-a07b-4116-8b05-159ed681161f\\\"}}",
+        "EnableSubsampling": "False",
+        "runTemplate": "AutoML",
+        "azureml.runsource": "automl",
+        "_aml_system_scenario_identification": "Remote.Parent",
+        "ClientType": "Browser",
+        "environment_cpu_name": "AzureML-AutoML",
+        "environment_cpu_label": "prod",
+        "environment_gpu_name": "AzureML-AutoML-GPU",
+        "environment_gpu_label": "prod",
+        "root_attribution": "automl",
+        "attribution": "AutoML",
+        "Orchestrator": "AutoML",
+        "CancelUri": "https://southcentralus.api.azureml.ms/jasmine/v1.0/subscriptions/6affee6e-d2a1-4d6c-9b31-044b97f88ef2/resourceGroups/TrabalhoInterdisciplinar/providers/Microsoft.MachineLearningServices/workspaces/chatbot/experiment/mslearn-bike-rental/cancel/AutoML_c2fb8164-5b2b-41f0-961e-be4862e2199f",
+        "ClientSdkVersion": "1.40.0.post1",
+        "snapshotId": "00000000-0000-0000-0000-000000000000",
+        "SetupRunId": "AutoML_c2fb8164-5b2b-41f0-961e-be4862e2199f_setup",
+        "SetupRunContainerId": "dcid.AutoML_c2fb8164-5b2b-41f0-961e-be4862e2199f_setup",
+        "FeaturizationRunJsonPath": "featurizer_container.json",
+        "FeaturizationRunId": "AutoML_c2fb8164-5b2b-41f0-961e-be4862e2199f_featurize",
+        "ProblemInfoJsonString": "{\"dataset_num_categorical\": 0, \"is_sparse\": true, \"subsampling\": false, \"has_extra_col\": true, \"dataset_classes\": 606, \"dataset_features\": 64, \"dataset_samples\": 731, \"single_frequency_class_detected\": false}",
+        "ModelExplainRunId": "AutoML_c2fb8164-5b2b-41f0-961e-be4862e2199f_ModelExplain"
+    },
+    "parameters": {},
+    "services": {},
+    "inputDatasets": [
+        {
+            "identifier": {
+                "savedId": "5a31db90-a07b-4116-8b05-159ed681161f",
+                "registeredId": null,
+                "registeredVersion": null
+            },
+            "consumptionType": "RunInput",
+            "inputDetails": {
+                "inputName": "training_data",
+                "mechanism": "Direct",
+                "pathOnCompute": null
+            }
+        }
+    ],
+    "outputDatasets": [],
+    "runDefinition": null,
+    "logFiles": {},
+    "jobCost": null,
+    "revision": 17,
+    "runTypeV2": {
+        "orchestrator": "AutoML",
+        "traits": [
+            "automl",
+            "Remote.Parent"
+        ],
+        "attribution": null,
+        "computeType": null
+    },
+    "settings": {},
+    "computeRequest": null,
+    "compute": null,
+    "createdBy": {
+        "userObjectId": "2a3753ef-1da3-45e0-823f-40c4b0013651",
+        "userPuId": "100320016D03AF9D",
+        "userIdp": null,
+        "userAltSecId": null,
+        "userIss": "https://sts.windows.net/14cbd5a7-ec94-46ba-b314-cc0fc972a161/",
+        "userTenantId": "14cbd5a7-ec94-46ba-b314-cc0fc972a161",
+        "userName": "Larissa Silqueira",
+        "upn": "1363098@sga.pucminas.br"
+    },
+    "computeDuration": "00:07:16.3293471",
+    "effectiveStartTimeUtc": null,
+    "runNumber": 1650562549,
+    "rootRunId": "AutoML_c2fb8164-5b2b-41f0-961e-be4862e2199f",
+    "userId": "2a3753ef-1da3-45e0-823f-40c4b0013651",
+    "statusRevision": 0,
+    "currentComputeTime": null,
+    "lastStartTimeUtc": null,
+    "lastModifiedBy": {
+        "userObjectId": "2a3753ef-1da3-45e0-823f-40c4b0013651",
+        "userPuId": "100320016D03AF9D",
+        "userIdp": null,
+        "userAltSecId": null,
+        "userIss": "https://sts.windows.net/14cbd5a7-ec94-46ba-b314-cc0fc972a161/",
+        "userTenantId": "14cbd5a7-ec94-46ba-b314-cc0fc972a161",
+        "userName": "Larissa Silqueira",
+        "upn": "1363098@sga.pucminas.br"
+    },
+    "lastModifiedUtc": "2022-04-21T17:45:51.5557555+00:00",
+    "duration": "00:07:16.3293471",
+    "inputs": null,
+    "outputs": null
+}

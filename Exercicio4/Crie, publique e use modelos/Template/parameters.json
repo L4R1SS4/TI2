@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "workspaces_chatbot_name": {
+            "value": null
+        },
+        "storageaccounts_chatbot5709455108_externalid": {
+            "value": null
+        },
+        "vaults_chatbot0725812557_externalid": {
+            "value": null
+        },
+        "components_chatbot9015124237_externalid": {
+            "value": null
+        },
+        "registries_c7e859b78d6a4a45bd1f3cd93a3f9c00_externalid": {
+            "value": null
+        }
+    }
+}
